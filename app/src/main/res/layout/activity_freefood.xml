@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1a5ecc"
+    >
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="7dip"
+        android:padding="2dip" >
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/cart" />
+        <ImageView
+            android:id="@+id/list_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/write" />
+    </LinearLayout>
+</RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Free Food"
+        android:background="#46c3d6"
+        android:layout_marginLeft="110dp"
+        android:textSize="35sp"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Being Helpful.."
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textColor="#e53f22"
+        android:textSize="25sp"
+        />
+    <Button
+        android:id="@+id/donate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/free2"
+        android:layout_marginLeft="100dp"
+        android:paddingTop="130dp"
+        android:paddingRight="150dp"
+        android:layout_marginBottom="10dp"
+
+        />
+    <Button
+        android:id="@+id/helper_button"
+        android:background="@drawable/helper"
+        android:paddingTop="120dp"
+        android:paddingRight="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
